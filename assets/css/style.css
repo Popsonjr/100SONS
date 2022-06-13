@@ -5,10 +5,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  background: linear-gradient(45deg, rgba(58, 2, 56, 0.5) 100%, rgba(243, 198, 239, 0.3) 100%), url("../img/bg2.png") center center no-repeat;
+  /* background: linear-gradient(45deg, rgba(58, 2, 56, 0.5) 100%, rgba(243, 198, 239, 0.3) 100%), url("../img/bg2.png") center center no-repeat; */
   /* background-size: cover; */
   /* background-image: url('../img/bg4.jpg');
   background-repeat: no-repeat; */
+  background-image: url('../img/bg2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -1440,4 +1444,8 @@ section {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   text-decoration: none;
+}
+
+#video{
+  padding: 25px;
 }
