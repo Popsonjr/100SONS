@@ -2,6 +2,22 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url('../img/n1.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
@@ -9,21 +25,21 @@ body {
   /* background-size: cover; */
   /* background-image: url('../img/bg4.jpg');
   background-repeat: no-repeat; */
-  background-image: url('../img/n1.png');
+  /* background-image: url('../img/n1.png');
   background-position: center fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   /* max-height: 100vh;
   max-width: 100vw; */
-  min-height: 100vh; 
-  min-width: 100vw;
+  /* min-height: 100vh; 
+  min-width: 100vw; */
   /* overflow-x: hidden; */
 }
 @media only screen and (max-width:768px){
-  body {
+  /* body {
     background-image: url('../img/n1.png');
-  }
+  } */
   
 }
 
