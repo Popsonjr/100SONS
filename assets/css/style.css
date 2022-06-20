@@ -9,7 +9,7 @@ body {
   /* background-size: cover; */
   /* background-image: url('../img/bg4.jpg');
   background-repeat: no-repeat; */
-  background-image: url('../img/bg4.jpg');
+  background-image: url('../img/n1.png');
   background-position: center fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@ body {
 }
 @media only screen and (max-width:768px){
   body {
-    background-image: url('../img/03.png');
+    background-image: url('../img/n1.png');
   }
   
 }
@@ -1461,6 +1461,9 @@ section {
   text-decoration: none;
 }
 
-#video{
-  padding: 25px;
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+  /* position: absolute; */
 }
