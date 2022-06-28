@@ -422,19 +422,19 @@ h1, h2, h3, h4, h5, h6 {
 #hero .container, #hero .container-fluid {
   padding-top: 84px;
 }
-#hero h1 {
+#hero h1, #page div h1 {
   margin: 0;
   font-size: 52px;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
 }
-#hero h2 {
+#hero h2, #page div h2 {
   color: rgba(255, 255, 255, 0.8);
   margin: 10px 0 0 0;
   font-size: 20px;
 }
-#hero .btn-get-started {
+#hero .btn-get-started, #page .btn-get-started {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   border: 2px solid #fff;
 }
-#hero .btn-get-started:hover {
+#hero .btn-get-started:hover, #page div .btn-get-started:hover {
   background: #fff;
   color: rgba(63, 6, 70, 0.8);
 }
